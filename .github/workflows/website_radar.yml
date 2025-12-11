@@ -3,7 +3,7 @@ name: Website Change Radar (Scheduled)
 on:
   schedule:
     # Every 15 minutes (UTC)
-    - cron: "*/10000 * * * *"
+    - cron: "*/1 * * * *"
   workflow_dispatch: {}
   # (workflow_dispatch lets you run it manually from the Actions tab)
 
