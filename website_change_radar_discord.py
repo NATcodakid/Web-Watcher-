@@ -33,7 +33,7 @@ from bs4 import BeautifulSoup
 # CONFIGURATION
 # =====================================
 
-DISCORD_WEBHOOK_URL = "https://discord.com/api/webhooks/1448756750135066828/QZXZ21m0ApImu54jk67TYhOmEM0leBaStuQlng-lIoYdFGFw9wAb7ZjRnlas00D3zT6-"
+DISCORD_WEBHOOK_URL = "DISCORD_WEBHOOK_URL"
 
 BASE_DIR = Path(__file__).parent
 STATE_FILE = BASE_DIR / "radar_state.json"
