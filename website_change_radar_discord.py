@@ -35,7 +35,7 @@ from bs4 import BeautifulSoup
 # =====================================
 
 # Read Discord webhook from environment (GitHub Actions secret / local env var)
-DISCORD_WEBHOOK_URL = os.getenv("MY__DISCORD", "")
+DISCORD_WEBHOOK_URL = os.getenv("DISCORD_WEBHOOK_URL", "")
 
 BASE_DIR = Path(__file__).parent
 STATE_FILE = BASE_DIR / "radar_state.json"
