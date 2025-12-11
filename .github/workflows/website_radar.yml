@@ -27,6 +27,6 @@ jobs:
 
       - name: Run Website Change Radar
         env:
-          DISCORD_WEBHOOK_URL: ${{ secrets.My__DISCORD }}
+          DISCORD_WEBHOOK_URL: ${{ secrets.MY__DISCORD }}
         run: |
           python website_change_radar_discord.py
